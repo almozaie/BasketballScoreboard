@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Basketball Scoreboard</title>
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+  <div class="scoreboard">
+    <div class="team">
+      <h2>HOME</h2>
+      <div class="score-box" id="home-score">0</div>
+      <div class="buttons">
+        <button class="score-btn" data-team="home" data-points="1">+1</button>
+        <button class="score-btn" data-team="home" data-points="2">+2</button>
+        <button class="score-btn" data-team="home" data-points="3">+3</button>
+      </div>
+    </div>
+
+    <div class="team">
+      <h2>GUEST</h2>
+      <div class="score-box" id="guest-score">0</div>
+      <div class="buttons">
+        <button class="score-btn" data-team="guest" data-points="1">+1</button>
+        <button class="score-btn" data-team="guest" data-points="2">+2</button>
+        <button class="score-btn" data-team="guest" data-points="3">+3</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="new-game">
+    <button onclick="newGame()">New Game</button>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>

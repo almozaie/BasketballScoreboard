@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  background: #1b244a;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  min-height: 100vh;
+}
+
+.scoreboard {
+  display: flex;
+  gap: 120px;
+  text-align: center;
+}
+
+.team h2 {
+  color: #eeeeee;
+  font-size: 64px;
+  font-weight: 700;
+  margin: 0 0 25px;
+}
+
+.score-box {
+  width: 220px;
+  height: 160px;
+  background: #080001;
+  color: #f94f6d;
+  font-size: 120px;
+  line-height: 160px;
+  border-radius: 12px;
+  margin: 0 auto 30px;
+  font-family: "Courier New", monospace;
+}
+
+.buttons,
+.new-game {
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+}
+
+.buttons button,
+.new-game button {
+  width: 60px;
+  height: 60px;
+  border: 2px solid #9aa9d8;
+  background: transparent;
+  color: #9aa9d8;
+  font-size: 24px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.new-game button {
+  width: 120px;
+  font-size: 18px;
+}
+
+.buttons button:hover,
+.new-game button:hover {
+  background: rgba(255, 255, 255, 0.05);
+}
